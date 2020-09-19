@@ -18,7 +18,7 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: "http://munjeongkang.github.io"
+url: "http://mj.github.io"
 
 author: mj                 # change to your full name
 
@@ -124,32 +124,32 @@ defaults:
       path: _drafts
     values:
       comments: false
-  # -
-  #   scope:
-  #     path: tags
-  #   values:
-  #     tab_active: Tags
-  #     location: Tag
-  #     breadcrumb:
-  #       -
-  #         label: Home
-  #         url: /
-  #       -
-  #         label: Tags
-  #         url: /tabs/tags/
-  # -
-  #   scope:
-  #     path: categories
-  #   values:
-  #     tab_active: Categories
-  #     location: Category
-  #     breadcrumb:
-  #       -
-  #         label: Home
-  #         url: /
-  #       -
-  #         label: Categories
-  #         url: /tabs/categories/
+  -
+    scope:
+      path: tags
+    values:
+      tab_active: Tags
+      location: Tag
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Tags
+          url: /tabs/tags/
+  -
+    scope:
+      path: categories
+    values:
+      tab_active: Categories
+      location: Category
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Categories
+          url: /tabs/categories/
   -
     scope:
       path: tabs
